@@ -54,6 +54,9 @@ bool is_valid_number(string str){
 long long pow(int a_initial, int b){
 	long long a = a_initial;//Stores the actual base
 	int i;
+	if (b == 0){
+		return 1
+		}
 	for(i = 1; i < b; ++i){
 	a = a * a_initial;//And then multiplies it the required # of times
 	}
