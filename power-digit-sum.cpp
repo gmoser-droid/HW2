@@ -67,3 +67,4 @@ int sum_of_digits(string str){
 		}
 	return adder;
 	}
+//I think about this constantly, and am delighted to finally have a program to satiate my endless curiosity.
